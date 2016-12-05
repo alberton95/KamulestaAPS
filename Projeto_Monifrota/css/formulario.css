@@ -1,0 +1,227 @@
+@charset "utf-8";
+/* CSS Document */
+body, div, h1, form, fieldset, input, textarea{
+	margin:0; padding:0; border:0; outline:none;
+	}
+	
+html{
+	height:100%
+	}
+		
+body{
+	background:#98C8A5;
+	background: -moz-linear-gradient(top, #84AA8E 0%,#648872 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4C7660),
+	color-stop(100%,#72A376));/*webkit*/
+	font-family:sans-serif;
+	}
+h3{
+	text-align:center;
+	}	
+	
+#saida{
+	width:400px; margin:60px auto; padding:60px 30px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+	
+#entrada{
+	width:400px; margin:60px auto; padding:60px 30px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+
+	}
+	
+#login{
+	width:430px; margin:60px auto; padding:60px 30px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+
+#opcoes{
+	width:180px; float:center;margin:60px auto; padding:60px 30px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+
+#principal{
+	
+	width:400px; float:center;margin:30px auto; padding:30px 30px;
+	background:#DAF5DF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+
+#admin{
+	width:400px; float:center;margin:30px auto; padding:30px 30px;
+	background:#E5E3E3; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}	
+#opcoesadmin{
+	width:200px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#cadastrar{
+	width:auto; float:center;margin:30px auto; padding:30px 30px;
+	background:#DAF5DF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}		
+						
+#cadastrarmotorista{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#cadastrarusuario{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#cadastrarveiculo{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#alterarmotorista{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}		
+#alterarveiculo{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#alterarfuncionario{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#excluirfuncionario	{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#excluirmotorista{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}	
+#excluirveiculo{
+	width:400px;heigth:400px; float:center;margin:60px auto; padding:60px 60px;
+	background:#E1DFDF; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}		
+#listarFuncionario{
+	width:430px; float:center;margin:60px auto; padding:60px 30px;
+	background:#E5E3E3; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+#listarMotorista{
+	width:430px; float:center;margin:60px auto; padding:60px 30px;
+	background:#E5E3E3; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}	
+#listarVeiculo{
+	width:430px; float:center;margin:60px auto; padding:60px 30px;
+	background:#E5E3E3; border: 1px solid #626161;
+	-moz-box-shadom: 0px 0px 8px #928F8F;
+	-webkit-box-shadow:0px 0px 8px #928F8;
+	}
+					
+h1{
+	text-align:center;
+	padding: 20px 10px;
+	}
+
+h6{
+	text-align:center;
+	}
+h4{
+	text-align:justify;
+	}
+label{
+	float: left; clear: left; margin: 11px 20px 0 0; width: 95px;
+	text-align: right; font-size: 24px; color:#FCF4F4;
+	text-transform: uppercase; text-shadow: 0px 1px 0px #F9F7F7;
+	}	
+
+input{
+	width: 345px; height: 35px; padding: 5px 20px 0px 20px; margin:0 0 20px 0;
+	background:#F8F4F4;
+	background: -moz-linear-gradient(top, #F8F4F4 0%, #FDFBFB 20%);/*firefox*/
+	background: -webkit-gradient(linera, left top, left bottom, color-stop(0%,#5C5B5B),
+	color-stop(20%,#8B8A8A));/*webit*/
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	-moz-box-shadow: 0px 1px 0px #F5F3F3; -webkit-box-shadow: opx 1px opx #F9F5F6;
+	font-family:sans-serif; font-size:18px; color:#090909; text-transform:uppercase; text-shadow: 0px -1px 0px #F8F4F4;
+	}			
+
+input::-webkit-input-placeholder{
+	color:#F5F2F2; text-shadow:0px -1px 0px #F9F7F7;
+	}	
+
+input:-moz-placeholder{
+	color:#F5F2F2; text-shadow:0px -1px 0px#F9F7F7;
+	}	
+	
+text-area{
+	width:360px; height: 270px; padding: 12px 20px 0px 20px; margin:0 0 20px 0;
+	background:#F1EEEE;
+	background:-moz-linear-gradient(top, #D0CCCC 0%,#BFBCBC 20%);/*firefox*/
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0%,#B0ABAB), color-stop(20%,#A09E9E));/*webkit*/
+	border-radius:5px; -moz-border-radius: 5px;-webkit-box-radius:5px;
+	-moz-box-shadow:0px 1px 0px #A09D9D;-webkit-box-shadow:0px 1px 0px #A09D9D;
+	font-family:sans-serif; font-size:18px; color:#050404; text-transform:uppercase; text-shadow:0px -1px 0px #B5B0B0; 
+	}	
+	
+text-area::-webkit-placeholder{
+	color:#FBF4F4; text-shadow: 0px -1px 0px #F8F3F3;
+	}
+	
+text-area:-moz-placeholder{
+	color:#B4B1B1; text-shadow: 0px -1px 0px #CCC8C8;
+	}	
+
+input:focus, textarea:focus{
+	background: #FBF7F7;
+	background: -moz-linear-gradient(top, #F1EFEF 0%, #FCF7F7 20%);/*firefox*/
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#F9F4F4),color-stop(20%,#F9F7F7));/*webkit*/	
+	}
+
+input[type=submit]{
+	 width: 185px; height: 52px; float: left; padding: 10px 15px; margin: 0 15px 0 0;
+    -moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+    border: 1px solid #556f8c;
+    background: -moz-linear-gradient(top, #718DA9 0%, #415D79 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
+    cursor: pointer;
+	}
+input[type=button]{
+	  width: 185px; height: 52px; float:center; padding: 10px 15px; margin: 0 15px 0 0;
+    -moz-box-shadow: 0px 0px 5px #999;-webkit-box-shadow: 0px 0px 5px #999;
+    border: 1px solid #556f8c;
+    background: -moz-linear-gradient(top, #718DA9 0%, #415D79 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#718DA9), color-stop(100%,#415D79)); /* webkit */
+    cursor: pointer;
+	}	
+	
